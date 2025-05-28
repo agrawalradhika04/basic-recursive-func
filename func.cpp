@@ -24,8 +24,6 @@ int Maximum(const vector<int>& v, int pos){
 int Two_To_The(int n){
     if(n == 0)
         return 1;
-    if (n == 1)
-        return 2;
     else{
         int result = 2 * Two_To_The(n - 1);
         return result;
@@ -76,7 +74,7 @@ int main(){
         int element;
         cin >> element;
         
-        v.push_back(element);
+        v[i] = element;
     }
     
     cout << "Enter the starting position of the range in which you want to find the maximum value: " << endl;
