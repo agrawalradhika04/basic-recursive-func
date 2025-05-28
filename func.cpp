@@ -1,7 +1,3 @@
-// Radhika Agrawal
-// HW 2 - CS210
-// Recursive Functions
-
 #include <iostream>
 #include <vector>
 
